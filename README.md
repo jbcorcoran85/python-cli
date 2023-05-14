@@ -1,3 +1,7 @@
+# Start virtual environment
+python3 -m venv env
+source env/bin/activate
+
 Increment version in pyproject.toml
 poetry build
 poetry publish -r testpypi
